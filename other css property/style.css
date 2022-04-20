@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+     width:360px;
+     margin:30px auto;
+     padding: 16px;
+     border: 1px solid #ccc;
+     height: 70vh;
+     /* section se bahar wala content hide ho jaega */
+     overflow:hidden;
+      /* overflow: scroll; */
+     /* overflow me bahar wali property dikhegi  */
+}   
+ul{
+     list-style: none; 
+} 
+li{
+    border: 1px solid #ccc;
+    padding: 10px;
+     border-radius: 16px;
+    max-width: 400px ;
+}
+figure{
+     border:2px solid #ccc;
+     padding: 16px;
+}
+figure img{
+    min-width: 400px;
+}
